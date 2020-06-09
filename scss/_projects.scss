@@ -1,6 +1,6 @@
 .projects-section {
   padding: 10rem 0;
-  
+
   background: linear-gradient(to bottom, #{fade-out($black, .1)} 0%, #{fade-out(rgba(22,22,22,0.8), .2)} 20%, $black 100%);
 
   .featured-text {
@@ -10,6 +10,11 @@
       border-left: 0.5rem solid $primary;
     }
   }
+
+  .greyscale {
+    filter: grayscale(100%);
+  }
+
   .project-text {
     padding: 3rem;
     font-size: 90%;

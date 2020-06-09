@@ -1,9 +1,13 @@
 .listen-section {
-    padding-top: 10rem;
+    padding-top: 5rem;
     background: linear-gradient(to bottom, $black 0%, #{fade-out($black, .1)} 75%, #{fade-out($black, .1)} 100%);
     //background-color: rgba(22,22,22,0.8);
-
+    
     p {
       margin-bottom: 5rem;
+    }
+
+    .listen-content {
+      padding: 3rem;
     }
   }
