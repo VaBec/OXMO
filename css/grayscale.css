@@ -278,6 +278,27 @@
   color: #fff;
 }
 
+.video-section {
+  padding-top: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+.video-section p {
+  margin-bottom: 5rem;
+}
+
+.listen-section {
+  padding-top: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background-color: rgba(22, 22, 22, 0.8);
+}
+
+.listen-section p {
+  margin-bottom: 5rem;
+}
+
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
