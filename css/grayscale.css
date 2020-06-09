@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+@charset "UTF-8";
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -177,13 +178,15 @@
 }
 
 .about-section .video {
-  padding: 1em;
   background-color: rgba(22, 22, 22, 0.9);
+  background-size: cover;
 }
 
 .projects-section {
   padding: 10rem 0;
   background-color: rgba(22, 22, 22, 0.8);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(22, 22, 22, 0.8)), color-stop(95%, rgba(22, 22, 22, 0.9)), to(#161616));
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.8) 80%, rgba(22, 22, 22, 0.9) 95%, #161616 100%);
 }
 
 .projects-section .featured-text {
@@ -215,12 +218,8 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.1)), to(#161616)), url("../img/Bühne_fett.jpeg") left no-repeat, url("../img/trompete.jpeg") right no-repeat;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.1) 75%, #161616 100%), url("../img/Bühne_fett.jpeg") left no-repeat, url("../img/trompete.jpeg") right no-repeat;
 }
 
 .signup-section .form-inline input {
