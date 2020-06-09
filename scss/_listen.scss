@@ -1,7 +1,7 @@
 .listen-section {
     padding-top: 10rem;
-    background: linear-gradient(to bottom, $black 0%, #{fade-out($black, .1)} 75%, #{fade-out($black, .2)} 100%);
-    background-color: rgba(22,22,22,0.8);
+    background: linear-gradient(to bottom, $black 0%, #{fade-out($black, .1)} 75%, #{fade-out($black, .1)} 100%);
+    //background-color: rgba(22,22,22,0.8);
 
     p {
       margin-bottom: 5rem;

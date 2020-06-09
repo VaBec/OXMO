@@ -1,11 +1,7 @@
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .9)} 75%,$black 100%), url('../img/Bühne_fett.jpeg') left no-repeat, url('../img/trompete.jpeg') right no-repeat;
-  //background: url('../img/Bühne_fett.jpeg') left no-repeat, url('../img/trompete.jpeg') right no-repeat;
-  // background-position: center;
-  //background-repeat: no-repeat;
-  //background-attachment: scroll;
- //background-size: cover;
+  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .9)} 75%,$black 100%), url('../img/Bühne_fett.jpeg') left;
+
   .form-inline {
     input {
       box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0,0,0,.1) !important;

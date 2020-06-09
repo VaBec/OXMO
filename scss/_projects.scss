@@ -1,7 +1,8 @@
 .projects-section {
   padding: 10rem 0;
-  background-color: rgba(22,22,22,0.8);
-  background: linear-gradient(to bottom, rgba(22,22,22,0.8) 80%, #{fade-out($black, 0.1)} 95%, $black 100%);
+  
+  background: linear-gradient(to bottom, #{fade-out($black, .1)} 0%, #{fade-out(rgba(22,22,22,0.8), .2)} 20%, $black 100%);
+
   .featured-text {
     padding: 2rem;
     @media (min-width: 992px) {
