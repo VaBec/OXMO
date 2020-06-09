@@ -176,6 +176,11 @@
   margin-bottom: 5rem;
 }
 
+.about-section .video {
+  padding: 1em;
+  background-color: rgba(22, 22, 22, 0.9);
+}
+
 .projects-section {
   padding: 10rem 0;
   background-color: rgba(22, 22, 22, 0.8);
