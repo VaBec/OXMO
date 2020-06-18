@@ -316,6 +316,7 @@
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
+  position: relative;
 }
 
 a {
