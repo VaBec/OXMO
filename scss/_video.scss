@@ -2,14 +2,16 @@
     padding-top: 3rem;
     //background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
     background: linear-gradient(to bottom, $black 0%, #{fade-out($black, .1)} 50%, $black 100%);
-
     p {
       margin-bottom: 5rem;
     }
-    // .video {
-    //   //padding: 2em;
-    //   background-color: rgba(22,22,22,0.9);
-    //   background-size: cover;
-    // }
+
+  }
+  .video-in-row {
+    height: 200px;
+    width: 100%;
+ //   //padding: 2em;
+ //   background-color: rgba(22,22,22,0.9);
+ //   background-size: cover;
   }
   

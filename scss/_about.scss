@@ -10,6 +10,14 @@
     background-size: cover;
   }
 
+  .big-video {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    object-fit: cover;
+  }
+
   .zitat {
     font-style: italic;
   }
